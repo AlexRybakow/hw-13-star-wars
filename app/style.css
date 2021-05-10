@@ -31,7 +31,7 @@ h1 {
 #swplanet {
 	display: flex;
 	flex-direction: column;
-	width: fit-content;
+	width: 120px;
 }
 
 .display {
