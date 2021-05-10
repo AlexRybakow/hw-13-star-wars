@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,400&display=swap');
+
+@font-face {
+	font-family: 'Starjedi';
+	src: url(../Starjedi.ttf)
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: cornsilk;
+	background-color: aqua;
+	background: url("../img/sw.jpg") no-repeat;
+	background-size: cover;
+}
+
+button {
+	background-color: chocolate;
+	font-family: fantasy;
+	color: bisque;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	cursor: pointer;
+}
+
+h1 {
+	color: goldenrod;
+	font-family: 'Starjedi';
+	font-weight: bold;
+}
+
+#swplanet {
+	display: flex;
+	flex-direction: column;
+	width: fit-content;
+}
+
+.display {
+	display: none;
+}
